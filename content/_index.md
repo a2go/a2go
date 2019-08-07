@@ -29,5 +29,6 @@ hosting one of our events, please get in touch with the organizers.
 
 ### Sponsors
 
+Your organization could sponsor this Meetup! Please reach out to the organizers.
 <div class="sponsors">
 </div>
