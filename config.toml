@@ -1,0 +1,9 @@
+baseURL = "https://a2go.github.io"
+languageCode = "en-us"
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+title = "A2Go Golang meetup"
+publishDir = "public"
+theme = "minimal"
+[params]
+  logo = "images/logo.png"
+  description = "An Ann Arbor-based community for anyone interested in the Go programming language"

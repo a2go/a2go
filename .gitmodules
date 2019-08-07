@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:a2go/a2go.github.io.git
+	branch = master
