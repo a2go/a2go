@@ -5,7 +5,13 @@ set -e
 
 # If user failed to clone with `git clone --recursive blah blah`
 printf "\033[0;32mSubmodule Safety Engaged...\033[0m\n"
-git submodule sync --recursive && git submodule update --init --recursive
+git submodule sync --recursive
+git submodule update --init --recursive
+cd public
+git checkout master
+git fetch
+git pull origin master
+cd ..
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.

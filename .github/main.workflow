@@ -1,18 +1,18 @@
-workflow "Hugo build" {
-  resolves = [
-    "Hugo Action",
-  ]
+workflow "Deploy to GitHub Organization Pages" {
+  resolves = ["hugo-deploy-gh-org-pages"]
   on = "push"
 }
 
-action "Fetch git submodules" {
-  uses = "srt32/git-actions@master"
-  args = "submodule sync --recursive && git submodule update --init --recursive"
-}
-
-action "Hugo Action" {
-  uses = "srt32/hugo-action@master"
-  needs = ["Filters for GitHub Actions", "Fetch git submodules"]
+action "hugo-deploy-gh-org-pages" {
+  uses = "StevenACoffman/hugo-deploy-gh-org-pages@v0.0.23"
+  needs = ["Filters for GitHub Actions"]
+  secrets = [
+    "EMAIL",
+    "DEPLOY_KEY_PRIVATE"
+  ]
+  env = {
+    HUGO_VERSION = "0.56.3"
+  }
 }
 
 action "Filters for GitHub Actions" {

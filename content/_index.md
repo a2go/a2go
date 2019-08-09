@@ -1,5 +1,5 @@
 ---
-title: "Ann Arbor Gophers"
+title: "A2Go for Ann Arbor Gophers"
 date: 2019-07-07T15:28:25+01:00
 ---
 
@@ -30,5 +30,6 @@ hosting one of our events, please get in touch with the organizers.
 ### Sponsors
 
 Your organization could sponsor this Meetup! Please reach out to the organizers.
+
 <div class="sponsors">
 </div>
