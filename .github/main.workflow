@@ -8,7 +8,7 @@ action "hugo-deploy-gh-org-pages" {
   needs = ["Filters for GitHub Actions"]
   secrets = [
     "EMAIL",
-    "DEPLOY_KEY_PRIVATE"
+    "DEPLOY_KEY_PRIVATE",
   ]
   env = {
     HUGO_VERSION = "0.56.3"
