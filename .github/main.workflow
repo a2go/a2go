@@ -4,7 +4,7 @@ workflow "Deploy to GitHub Organization Pages" {
 }
 
 action "hugo-deploy-gh-org-pages" {
-  uses = "StevenACoffman/hugo-deploy-gh-org-pages@v1.0.0"
+  uses = "StevenACoffman/hugo-deploy-gh-org-pages@v1.0.2"
   needs = ["Filters for GitHub Actions"]
   secrets = [
     "EMAIL",
