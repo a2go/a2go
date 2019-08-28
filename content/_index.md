@@ -15,8 +15,8 @@ food and drink provided.
 Membership of A2Go is managed via our [Meetup page](https://www.meetup.com/A2Go-Golang-developer-meetup/); everyone is
 welcome!
 
-Submit a talk proposal, or come join us in #gophers channel in the
-`#gophers` channel in the [MadeInA2 Slack](https://madeina2.slack.com) ([sign-up here](https://madeina2slackin.herokuapp.com)).
+Submit a talk proposal, or come join us in the
+`#a2go` channel in the [Gophers Slack](https://gophers.slack.com) ([sign-up here](https://invite.slack.golangbridge.org/)).
 
 ### Code of Conduct
 
