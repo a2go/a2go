@@ -20,7 +20,7 @@ Submit a talk proposal, or come join us in the
 
 ### Code of Conduct
 
-A2Go operates under the [Go Bridge Code of Conduct](http://coc.gobridge.org/). Harassment, bullying, and discrimination are unacceptable here and if you witness or experience those or other harmful behaviors, please let the organizers know.
+A2Go operates under the [Go Code of Conduct](https://golang.org/conduct). Harassment, bullying, and discrimination are unacceptable here and if you witness or experience those or other harmful behaviors, please let the organizers know.
 
 ### Contact
 
